@@ -31,7 +31,7 @@ if price_as_float <= BUY_PRICE:
         connection.sendmail(
             from_addr=MY_EMAIL,
             to_addrs=MY_EMAIL,
-            msg=f'Subject:Amazon Price drop alert!!!.\n\nYour desired product {product_name} price has dropped to {price_as_float}\n{URL} '
+            msg=f'Subject:Amazon Price drop alert!!!.\n\nYour desired product {product_name} price has dropped to ${price_as_text}\n{URL} '
             .encode("utf-8")
         )
 
