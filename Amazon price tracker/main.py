@@ -3,9 +3,9 @@ from bs4 import BeautifulSoup
 import lxml
 import smtplib
 
-BUY_PRICE = 10005555
-MY_EMAIL = 'kodiugos@gmail.com'
-PWD = 'llhytkakbfhnikci'
+BUY_PRICE = 1000
+MY_EMAIL = 'name@gmail.com'
+PWD = 'YOUR PWD'
 URL = 'https://www.amazon.com/ASUS-ROG-Zephyrus-Gaming-Laptop/dp/B09MMHSXSH/ref=sr_1_5?crid=2BPJ7PHL2EEG5&keywords' \
       '=asus%2Brog%2Bzephyrus&qid=1659300456&sprefix=asus%2Brog%2B%2Caps%2C426&sr=8-5&th=1 '
 headers = {
